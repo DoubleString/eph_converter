@@ -91,7 +91,7 @@ void B2b::m_geneph(){
 	char filename[256] = {0};
 	int mjd,iyear,imon,iday,ih,im,gweek,gd;
 	double dx[6],length,A[3],Cr[3],R[3],dxx[6],sec;
-	double sod,dintv = 30,dt,dtmin,dtlimit =120,xsat_out[6],xsat[6];
+	double sod,dintv = 900,dt,dtmin,dtlimit =120,xsat_out[6],xsat[6];
 	/******** generate the ephemeris here *****************/
 	cout << "begin to recover ephemeris ..." << endl;
 	mjd = mjd0;
